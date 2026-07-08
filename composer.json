@@ -6,6 +6,11 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/huseyinfiliz/simple-dark-mode/issues",
+        "source": "https://github.com/huseyinfiliz/simple-dark-mode"
+    },
+    "homepage": "https://huseyinfiliz.com/flarum/",
     "require": {
         "flarum/core": "^2.0"
     },
@@ -24,11 +29,11 @@
     "extra": {
         "flarum-extension": {
             "title": "Simple Dark Mode",
-            "category": "",
+            "category": "feature",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "fas fa-circle-half-stroke",
+                "color": "#fff",
+                "backgroundColor": "#3498db"
             }
         },
         "flarum-cli": {
