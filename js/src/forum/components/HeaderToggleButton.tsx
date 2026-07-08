@@ -13,15 +13,17 @@ export default class HeaderToggleButton extends Component {
     const label = app.translator.trans(`huseyinfiliz-simple-dark-mode.forum.session.${labelKey}`);
 
     return (
-      <Button
-        className="Button Button--flat SimpleDarkModeToggle"
-        icon={targetIcon(isDark, solid)}
-        title={label}
-        aria-label={label}
-        onclick={() => toggleScheme()}
-      >
-        {label}
-      </Button>
+      <div className="ButtonGroup HeaderDropdown SimpleDarkModeToggleGroup">
+        <Button
+          className="Dropdown-toggle Button Button--flat SimpleDarkModeToggle"
+          icon={targetIcon(isDark, solid)}
+          title={label}
+          aria-label={label}
+          onclick={() => toggleScheme()}
+        >
+          {label}
+        </Button>
+      </div>
     );
   }
 }
