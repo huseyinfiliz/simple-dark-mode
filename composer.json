@@ -2,13 +2,18 @@
     "name": "huseyinfiliz/simple-dark-mode",
     "description": "A simple dark mode toggle for Flarum 2",
     "keywords": [
-        "flarum"
+        "extension",
+        "flarum",
+        "dark mode",
+        "night mode",
+        "toggle theme"
     ],
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/huseyinfiliz/simple-dark-mode/issues",
-        "source": "https://github.com/huseyinfiliz/simple-dark-mode"
+        "source": "https://github.com/huseyinfiliz/simple-dark-mode",
+        "forum": "https://discuss.flarum.org/d/39530-simple-dark-mode-flarum-2"
     },
     "homepage": "https://huseyinfiliz.com/flarum/",
     "require": {
