@@ -5,14 +5,7 @@ import SessionDropdown from 'flarum/forum/components/SessionDropdown';
 import HeaderSecondary from 'flarum/forum/components/HeaderSecondary';
 
 import HeaderToggleButton from './components/HeaderToggleButton';
-import {
-  applyGuestChoiceAfterCoreBoot,
-  effectiveScheme,
-  isDarkScheme,
-  syncOnBoot,
-  targetIcon,
-  toggleScheme,
-} from './theme';
+import { applyGuestChoiceAfterCoreBoot, effectiveScheme, isDarkScheme, syncOnBoot, targetIcon, toggleScheme } from './theme';
 
 app.initializers.add('huseyinfiliz-simple-dark-mode', () => {
   // app.session isn't populated yet during initializers, so this has to wait.
